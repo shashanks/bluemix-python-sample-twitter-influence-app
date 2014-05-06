@@ -6,7 +6,7 @@ applications:
   instances: 1
   url: TwitterInfluenceAnalyzerPython${random-word}.${target-base}
   host: TwitterInfluenceAnalyzerPython-${random-word}
-  domain: ${target-base} #Bluemix Parent Domain Name
+  domain: dtest #Bluemix Parent Domain Name
   path: .
   command: python wsgi.py
   services:
